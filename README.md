@@ -19,13 +19,6 @@ opkg install libsodium_1.0.12-1_ar71xx.ipk
 opkg install mentohust_0.3.1-1_ar71xx.ipk
 ```
 
-注意必须进行`mentohust`可执行文件的替换，否则会出现`can't resolve symbol 'atexit' in lib`错误：
-
-```bash
-chmod a+x mentohust
-cp mentohust /usr/sbin
-```
-
 安装`luci`界面：
 
 ```bash
